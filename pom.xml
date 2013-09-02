@@ -4,7 +4,7 @@
   <groupId>org.codehaus.enunciate</groupId>
   <artifactId>enunciate-parent</artifactId>
   <packaging>pom</packaging>
-  <version>1.28-SNAPSHOT</version>
+  <version>1.27jsonfix</version>
   <name>Enunciate - Parent</name>
 
   <modules>
