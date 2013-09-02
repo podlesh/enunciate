@@ -350,6 +350,18 @@
 
   <distributionManagement>
 
+		<repository>
+			<id>releases</id>
+			<name>Releases</name>
+			<url>http://hudson.int.lmc.cz:8080/nexus/content/repositories/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Shapshots</name>
+			<url>http://hudson.int.lmc.cz:8080/nexus/content/repositories/snapshots</url>
+			<uniqueVersion>false</uniqueVersion>
+		</snapshotRepository>
+<!--
     <repository>
       <id>codehaus.org</id>
       <name>Enunciate Central Repository</name>
@@ -361,7 +373,7 @@
       <name>Enunciate Central Development Repository</name>
       <url>dav:https://dav.codehaus.org/snapshots.repository/enunciate/</url>
     </snapshotRepository>
-
+-->
   </distributionManagement>
 
 </project>
